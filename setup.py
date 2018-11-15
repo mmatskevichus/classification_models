@@ -1,11 +1,13 @@
-import setuptools
+from setuptools import setup
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
-setuptools.setup(
-    name="classification_models",
-    version="0.0.1",
-    author="Forked from https://github.com/qubvel",
-    packages= setuptools.find_packages()
+setup(
+    name='classification_models',
+    version='',
+    packages=['', 'tests', 'classification_models', 'classification_models.resnet', 'classification_models.resnext'],
+    package_dir={'': 'classification_models-master'},
+    url='',
+    license='',
+    author='mmatskevichus',
+    author_email='',
+    description=''
 )
