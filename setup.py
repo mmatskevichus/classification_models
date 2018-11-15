@@ -7,4 +7,3 @@ setuptools.setup(
     name="classification_models",
     version="0.0.1",
     author="Forked from https://github.com/qubvel")
-)
